@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFIT Admission Enquiry Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header-section">
+            <img src="https://www.sfit.ac.in/images/Emblem.jpg" alt="SFIT Logo" class="logo">
+            <h1>St. Francis Institute of Technology</h1>
+            <p>Mount Poinsur, Borivali (W), Mumbai - 400 103</p>
+            <p>Phone No.(22): 28928585, 28928587 | Email: sfit@sfit.ac.in | Website: www.sfit.ac.in</p>
+        </header>
+
+        <form class="form-section">
+            <fieldset>
+                <legend>Admission Enquiry Registration</legend>
+                <p>General Instructions:</p>
+                <div class="horizontal-group">
+                    <label for="firstName">Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                    <input type="text" id="middleName" name="middleName" placeholder="Middle Name">
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+                </div>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address"></textarea><br>
+
+                <div class="horizontal-group">
+                    <label for="city">City:</label>
+                    <select id="city" name="city">
+                        <option value="">Select City</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kolkata">Kolkata</option>
+                    </select>
+
+                    <label for="state">State:</label>
+                    <select id="state" name="state">
+                        <option value="">Select State</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+
+                    <label for="pincode">Pincode:</label>
+                    <input type="number" id="pincode" name="pincode">
+                </div>
+
+                <label for="email">Email Id:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="mobile">Mobile No.:</label>
+                <input type="tel" id="mobile" name="mobile"><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br>
+
+                <label for="gender">Gender:</label>
+                <div class="gender-options">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div><br>
+
+                <label for="branch">Choice of Branch:</label>
+                <div class="branch-options">
+                    <input type="checkbox" id="it" name="branch" value="Information Technology">
+                    <label for="it">Information Technology</label>
+                    <input type="checkbox" id="ce" name="branch" value="Computer Engineering">
+                    <label for="ce">Computer Engineering</label>
+                    <input type="checkbox" id="ee" name="branch" value="Electronics Engineering">
+                    <label for="ee">Electronics Engineering</label>
+                </div><br>
+
+                <label for="cet">Upload CET Score Card:</label>
+                <input type="file" id="cet" name="cet"><br>
+
+                <label for="username">Choose username:</label>
+                <input type="text" id="username" name="username"><br>
+
+                <label for="password">Enter password:</label>
+                <input type="password" id="password" name="password"><br>
+
+                <label for="retypePassword">Retype Password:</label>
+                <input type="password" id="retypePassword" name="retypePassword"><br>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+
+        <div class="frame green-frame">
+            <div class="vision-mission">
+                <div class="text-section">
+                    <h1>Vision and Mission</h1>
+                    <p>To be a chrysalis where bright youngsters are transformed into technological entrepreneurs and innovative leaders of tomorrow’s world, consistent with the Franciscan vision of integrity, peace and love.</p>
+                    <p>Mission: “To churn highly competent engineering graduates with a commitment to result oriented work, a perennial zest for learning, a quest for excellence, an open mind and the universal values of honesty, dignity and mutual care.”</p>
+                </div>
+                <div class="image-section">
+                    <img src="https://theacademicinsights.com/wp-content/uploads/2021/07/St.-Francis-Institute-of-Technology-draft-engg-survey-2021.jpg" alt="Building Image" class="building-image">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <hr>
+            <p>Designed By: Georgia Correia - 221013</p>
+        </div>
+    </div>
+</body>
+</html>
